@@ -1,0 +1,18 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 150px; /* Set a fixed width for the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card img {
+    width: 100%; /* Image takes the full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 150px; /* Set a maximum height */
+    object-fit: cover; /* Crop the image if it exceeds the height */
+  }
+  
